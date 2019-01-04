@@ -9,12 +9,12 @@ class Multi_Stripe_WooCommerce_Display {
 	}
 
 	public function init() {
-
-		add_action(
-			'woocommerce_product_options_pricing',
-			array( $this, 'custom_price' )
-		);
+//		add_action(
+//			'woocommerce_product_options_pricing',
+//			array( $this, 'custom_price' )
+//		);
 	}
+
 
 	public function custom_price() {
 
